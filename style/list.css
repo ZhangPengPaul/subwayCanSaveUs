@@ -1,0 +1,323 @@
+#z-center {
+    margin-top: 30px;
+}
+.category-list {
+    width: 224px;
+    box-shadow: 0px 0px 2px #AFAFAF;
+    overflow: hidden;
+}
+.category-title {
+    width: 224px;
+    height: 51px;
+    background: url("/public/images/category-title-bg.jpg") repeat-x;
+    font-size: 18px;
+    font-family: "微软雅黑", "黑体", "宋体";
+    color: #000;
+    font-weight: bold;
+    line-height: 50px;
+    padding-left: 20px;
+    float: left;
+}
+.category-list ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    position: relative;
+    top: -1px;
+    width: 100%;
+}
+.category-list ul li {
+    float: left;
+    width: 100%;
+    overflow: hidden;
+}
+.category-list ul li a {
+    width: 100%;
+    padding: 9px 20px;
+    float: left;
+    border-top: 1px solid #f7f8fa;
+    border-bottom: 1px solid #f7f8fa;
+    background: #f7f8fa;
+    height: 40px;
+    line-height: 22px;
+    font-family: "微软雅黑", "黑体", "宋体";
+    font-size: 14px;
+    color: #000;
+}
+.category-list ul li a:hover, .category-list ul li .active {
+    background: #ebedf3;
+    border-top: 1px solid #dadbdd;
+    border-bottom: 1px solid #dadbdd;
+    text-decoration: none;
+}
+.category-list ul li a .category-icon {
+    width: 18px;
+    height: 18px;
+    float: left;
+    margin-right: 10px;
+    position: relative;
+    top: -3px;
+}
+.category-list ul li:first-child a:hover, .category-list ul li:last-child a:hover {
+    border-bottom: none;
+}
+.course-center {
+    width: 738px;
+}
+.slide-box {
+    width: 100%;
+    float: left;
+}
+.category-tag {
+    width: 100%;
+    float: left;
+    box-shadow: 0px 0px 2px #AFAFAF;
+    background: #f7f8fa;
+    overflow: hidden;
+    font-family: "微软雅黑", "黑体", "宋体";
+    font-size: 12px;
+}
+.category-tag-1 {
+    width: 100%;
+    padding: 10px 20px;
+    border-bottom: 1px solid #e0e1e3;
+    float: left;
+}
+.category-tag-1 span {
+    float: left;
+    margin: 0 15px 0 6px;
+    font-weight: bold;
+}
+.category-tag-1 a {
+    color: #15638f;
+    font-weight: bold;
+}
+.category-tag-title {
+    float: left;
+    margin-right: 15px;
+    font-weight: bold;
+    color: #000;
+    line-height: 21px;
+}
+.category-tag-1 .category-tag-title:first-child {
+    line-height: 17px;
+    margin-right: 10px;
+}
+.category-tag-name {
+    float: left;
+}
+.category-tag-2, .category-tag-3, .category-tag-4 {
+    width: 100%;
+    padding: 8px 20px;
+    border-bottom: 1px solid #e0e1e3;
+    float: left;
+}
+.category-tag-2 a, .category-tag-3 a, .category-tag-4 a {
+    /* width: 75px; */
+    float: left;
+    text-align: center;
+    margin: 5px 8px;
+    color: #333333;
+    padding: 3px 5px;
+}
+.category-tag-2 a:hover, .category-tag-3 a:hover, .category-tag-4 a:hover, .category-tag .category-tag-active {
+    background: #354a75;
+    color: #fff;
+    text-decoration: none;
+}
+.category-tag-2 .category-tag-title {
+    margin: 5px 10px 5px 0;
+}
+.course-list {
+    width: 100%;
+    float: left;
+    margin-top: 5px;
+    overflow: hidden;
+    padding: 10px 1px;
+}
+.course-list-info {
+    float: left;
+    width: 1000px;
+}
+.hot-class-box {
+    width: 234px;
+    float: left;
+    height: 273px;
+    background: #fff;
+    box-shadow: 0px 2px 3px #949494;
+    padding: 1px;
+    position: relative;
+    overflow: hidden;
+    margin: 0 17px 17px 0;
+}
+.hot-class-img {
+    width: 232px;
+    height: 123px;
+    float: left;
+}
+.hot-class-img img {
+    width: 232px;
+}
+.hot-class-author {
+    position: absolute;
+    top: 113px;
+    width: 100%;
+    float: left;
+    z-index: 1;
+}
+.hot-class-author span {
+    float: left;
+}
+.hot-class-author span:first-child {
+    margin: 0 10px 0 10px;
+}
+.hot-class-author span:first-child img {
+    width: 56px;
+    border: 2px solid #FFF;
+    box-shadow: 0px 1px 7px #999;
+}
+.hot-class-author-name {
+    font-size: 12px;
+    font-family: "微软雅黑", "黑体", "宋体";
+    color: #000000;
+    position: relative;
+    top: 17px;
+    left: -3px;
+}
+.hot-class-box-title {
+    font-size: 14px;
+    font-family: "微软雅黑", "黑体", "宋体";
+    color: #313131;
+    position: absolute;
+    top: 181px;
+    width: 100%;
+    padding: 0 10px;
+    height: 40px;
+    overflow: hidden;
+    font-weight: bold;
+}
+.hot-class-box-title a {
+    color: #313131;
+}
+.hot-class-box-title a:hover {
+    color: #2A6496;
+}
+.hot-class-information {
+    width: 100%;
+    height: 30px;
+    float: left;
+    position: absolute;
+    top: 242px;
+    padding: 0 10px;
+    border-top: 1px solid #cacaca;
+    line-height: 30px;
+    font-size: 12px;
+    text-align: center;
+    font-family: "微软雅黑", "黑体", "宋体";
+}
+.hot-class-information div {
+    width: 50px;
+    text-align: left;
+}
+.hot-class-information div span {
+    color: #FFF;
+    background: #34789e;
+    padding: 1px 4px;
+}
+.course-information-span {
+    text-align: right !important;
+}
+.category-time {
+    width: 100%;
+    margin-top: 15px;
+    font-family: "微软雅黑", "黑体", "宋体";
+    font-size: 12px;
+    line-height: 24px;
+    color: #333;
+}
+.category-time button {
+    font-family: "微软雅黑", "黑体", "宋体";
+    font-size: 12px;
+    padding: 3px 6px;
+}
+.category-time button span {
+    color: #A5A5A5;
+    position: relative;
+    top: 2px;
+    left: 1px;
+}
+.category-time-name {
+    margin-right: 10px;
+}
+.category-tag-a {
+    float: left;
+}
+.video-time {
+    width: 16px;
+    height: 12px;
+    background: url("/public/images/video-time.png");
+    display: inline-block;
+    margin-right: 3px;
+    position: relative;
+    top: 1px;
+}
+.video-views {
+    width: 16px;
+    height: 12px;
+    background: url("/public/images/views.png");
+    display: inline-block;
+    margin-right: 3px;
+    position: relative;
+    top: 1px;
+}
+.category-tag-name-other {
+    float: left;
+    width: 614px;
+}
+.no-active a {
+    color: #A8A8A8 !important;
+}
+.no-active .category-icon {
+    opacity: 0.4;
+}
+.hot-class-author-title {
+    color: #686868;
+    font-size: 12px;
+    position: absolute;
+    left: 72px;
+    top: 34px;
+}
+.chart-box {
+    width: 100%;
+    float: left;
+    box-shadow: 0px 0px 2px #AFAFAF;
+    background: #F7F8FA;
+    font-family: "微软雅黑", "黑体", "宋体";
+    font-size: 12px;
+    margin-bottom: 20px;
+    position: relative;
+}
+.chart-box-text {
+    width: 225px;
+    padding: 10px;
+}
+path.link {
+    stroke: #dadada !important;
+}
+.chart-box-notice{
+	width:100%;
+	padding:10px;
+	float: left;
+	background: #eee;
+}
+.chart-box-button{
+	position: absolute;
+	top:10px;
+	left:10px;
+}
+.pull-left{
+    float: left;
+}
+.pull-right{
+    float: right;
+}

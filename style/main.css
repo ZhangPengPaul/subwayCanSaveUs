@@ -15,7 +15,12 @@ body {
     padding: 20px 0 0 0;
     top: 0;
 }
-#section0 h1 {
+#section1{
+		background: -webkit-gradient(linear, top left, bottom left, from(#344872), to(#636F8F));
+		background: -webkit-linear-gradient(#344872, #636F8F);
+		background: linear-gradient(#344872,#636F8F);
+}
+#section1 h1 {
     text-align: center;
     font-size: 60px;
     color:#fff;
@@ -34,53 +39,91 @@ body {
 }
 .showsite img{
 	width:50%;
-	border: 1px solid #3E4672;
-	box-shadow: 0px 23px 43px #0B305F;
+	border:1px solid #999;
+	box-shadow: 1px 3px 11px #444;
 }
 .box {
     width: 300px;
     height: 300px;
     float: left;
+    margin:0 20px;
 }
 .box1 {
     background: #18E728;
+    animation-delay:0.2s;
+    -webkit-animation-delay:0.2s;
 }
 .box2 {
     background: #008040;
+    animation-delay:0.3s;
+    -webkit-animation-delay:0.3s;
 }
 .box3 {
-    background: #8000FF
+    background: #8000FF;
+    animation-delay:0.1s;
+    -webkit-animation-delay:0.1s;
 }
 .box4 {
-    background: #FF0080
+    background: #FF0080;
+    animation-delay:0.15s;
+    -webkit-animation-delay:0.15s;
 }
 .box5 {
-    background: #FF8040
+    background: #FF8040;
+    animation-delay:0.18s;
+    -webkit-animation-delay:0.18s;
 }
 .box6 {
-    background: #00FF40
+    background: #00FF40;
+    animation-delay:0.1s;
+    -webkit-animation-delay:0.1s;
 }
-#section0 {
-    background: -webkit-gradient(linear, top left, bottom left, from(#354A75), to(#4D5E8B));
-    background: -webkit-linear-gradient(#354A75, #4D5E8B);
-    background: linear-gradient(#354A75, #4D5E8B);
+#section2 .box,#section3 .box{
+	display: none;
 }
-#section1 .box {
-    display: none;
+.content{
+	width:980px;
+	float: left;
+	margin: 0 25%;
 }
-#section1 .box1 {
-    animation-delay: 0.02s;
-    -webkit-animation-delay: 0.02s;
+.aa{
+	display: none;
 }
-#section1 .box2 {
-    animation-delay: 0.06s;
-    -webkit-animation-delay: 0.06s;
+.aa1{
+	animation-delay:0.02s;
+    -webkit-animation-delay:0.02s;
 }
-#section1 .box3 {
-    animation-delay: 0.09s;
-    -webkit-animation-delay: 0.09s;
+.aa2{
+	animation-delay:0.04s;
+    -webkit-animation-delay:0.04s;
 }
-#section1 .box4 {
-    animation-delay: 0.1s;
-    -webkit-animation-delay: 0.1s;
+.aa3{
+	animation-delay:0.06s;
+    -webkit-animation-delay:0.06s;
 }
+.aa4{
+	animation-delay:0.08s;
+    -webkit-animation-delay:0.08s;
+}
+.aa5{
+	animation-delay:0.1s;
+    -webkit-animation-delay:0.1s;
+}
+.aa6{
+	animation-delay:0.12s;
+    -webkit-animation-delay:0.12s;
+}
+.aa7{
+	animation-delay:0.14s;
+    -webkit-animation-delay:0.14s;
+}
+.aa8{
+	animation-delay:0.18s;
+    -webkit-animation-delay:0.18s;
+}
+
+
+
+
+
+

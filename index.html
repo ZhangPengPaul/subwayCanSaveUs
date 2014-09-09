@@ -3,6 +3,7 @@
 <head>
     <link rel="stylesheet" type="text/css" href="style/jquery.fullPage.css">
     <link rel="stylesheet" type="text/css" href="style/main.css">
+    <link rel="stylesheet" type="text/css" href="style/list.css">
     <link rel="stylesheet" type="text/css" href="style/animate.css">
     <script type="text/javascript" src="script/jquery.js"></script>
     <script type="text/javascript" src="script/jquery.easings.min.js"></script>
@@ -11,59 +12,271 @@
 </head>
 
 <body>
-	<div id="header"><img src="images/logo.png"></div>
+    <div id="header">
+        <img src="images/logo.png">
+    </div>
     <div id="fullpage">
-    	<div class="section" id="section0">
-    		<h1 class="animated fadeInUp">如何在知知网上学习？</h1>
-    		<div class="showsite">
-    			<img class="animated bounceInUp" src="images/1.jpg">
-    		</div>
-    	</div>
         <div class="section" id="section1">
-        	<div class="box box1">
-        	</div>
-        	<div class="box box2">
-        	</div>	
-        	<div class="box box3">
-        	</div>	
-        	<div class="box box4">
-        	</div>	
-        	<div class="box box5">
-        	</div>	
-        	<div class="box box6">
-        	</div>	
+            <h1 class="animated bounceInDown">如何在知知网上学习？</h1>
+            <div class="showsite">
+                <img class="animated bounceInUp" src="images/1.jpg">
+            </div>
         </div>
-        <div class="section" id="section2">	
-        	<div class="box box4">
-        	</div>	
-        	<div class="box box5">
-        	</div>	
-        	<div class="box box6">
-        	</div>	
-        </div>
-        <div class="section" id="section3">	
-        	<div class="box box5">
-        	</div>	
-        	<div class="box box6">
-        	</div>	
-        </div>
-        <div class="section" id="section4">	
+        <div class="section" id="section2">
+        	<div class="content">
+            <div class="pull-left category-list aa aa1">
+                <div class="pull-left category-title">课程分类</div>
+                <ul class="pull-left">
+                    <!--左侧大分类-->
+                    <li class="aa aa1">
+                        <a href="/category/1">
+                            <span class="category-icon">
+                                <img src="http://img2.zhiizhii.com/cat/1401783073801/2ab27e3c-fb66-419a-8b52-b796c33b986d">
+                            </span>
+                            市场
+                        </a>
+                    </li>
+                    <li class="aa aa6">
+                        <a href="/category/2">
+                            <span class="category-icon">
+                                <img src="http://img2.zhiizhii.com/cat/1405408436772/43f5bb70-af5f-411e-bcd8-2608db877080">
+                            </span>
+                            人力资源
+                        </a>
+                    </li>
+                    <li class="aa aa4">
+                        <a href="/category/3">
+                            <span class="category-icon">
+                                <img src="http://img2.zhiizhii.com/cat/1407489692575/2bf223c9-03bf-45ad-b8ed-3ce77e2bbce8">
+                            </span>
+                            通用技能
+                        </a>
+                    </li>
 
-        	<div class="box box6">
-        	</div>	
+                    <li class="no-active aa aa2">
+                        <a href="javascript:;">
+                            <span class="category-icon" data-original-title="" title="">
+                                <img src="/public/images/category/2.png">
+                            </span>
+                            <span data-toggle="tooltip" data-placement="right" title="" data-original-title="暂无课程">销售</span>
+                        </a>
+                    </li>
+
+                    <li class="no-active aa aa3">
+                        <a href="javascript:;">
+                            <span class="category-icon" data-original-title="" title="">
+                                <img src="/public/images/category/4.png">
+                            </span>
+                            <span data-toggle="tooltip" data-placement="right" title="" data-original-title="暂无课程">
+                                电子商务
+                            </span>
+                        </a>
+                    </li>
+
+                    <li class="no-active aa aa5">
+                        <a href="javascript:;">
+                            <span class="category-icon" data-original-title="" title="">
+                                <img src="/public/images/category/5.png">
+                            </span>
+                            <span data-toggle="tooltip" data-placement="right" title="" data-original-title="暂无课程">
+                                财务
+                            </span>
+                        </a>
+                    </li>
+
+                    <li class="no-active aa aa2">
+                        <a href="javascript:;">
+                            <span class="category-icon" data-original-title="" title="">
+                                <img src="/public/images/category/6.png">
+                            </span>
+                            <span data-toggle="tooltip" data-placement="right" title="" data-original-title="暂无课程">
+                                行政
+                            </span>
+                        </a>
+                    </li>
+
+                    <li class="no-active aa aa4">
+                        <a href="javascript:;">
+                            <span class="category-icon" data-original-title="" title="">
+                                <img src="/public/images/category/7.png">
+                            </span>
+                            <span data-toggle="tooltip" data-placement="right" title="" data-original-title="暂无课程">
+                                客服
+                            </span>
+                        </a>
+                    </li>
+
+                    <li class="no-active aa aa3">
+                        <a href="javascript:;">
+                            <span class="category-icon" data-original-title="" title="">
+                                <img src="/public/images/category/8.png">
+                            </span>
+                            <span data-toggle="tooltip" data-placement="right" title="" data-original-title="暂无课程">
+                                运营
+                            </span>
+                        </a>
+                    </li>
+
+                    <!--左侧大分类 end-->
+                </ul>
+            </div>
+
+            <div class="pull-right course-center">
+                <div class="slide-box aa aa6">
+                    <a href="/c/25">
+                        <img src="http://zhiizhii.com/public/images/slide-3.jpg">
+                    </a>
+                </div>
+
+                <!--时间、热门分类-->
+                <div class="pull-left category-time aa aa5">
+                    <span class="pull-left category-time-name">排序：</span>
+
+                    <div class="pull-left btn-group category-time-item">
+                        <button type="button" onclick="orderQuery('v')" class="btn btn-default ">默认
+                        </button>
+                        <button type="button" onclick="orderQuery('d')" class="btn btn-default ">时间
+                            <span class="glyphicon glyphicon-arrow-down"></span>
+                        </button>
+                        <button type="button" onclick="orderQuery('h')" class="btn btn-default ">热度
+                            <span class="glyphicon glyphicon-arrow-down"></span>
+                        </button>
+                    </div>
+                    <div class="pull-right">
+                        全部课程25个
+                    </div>
+                </div>
+
+                <div class="course-list">
+                    <div class="course-list-info">
+                        <!--课程-->
+                        <div class="hot-class-box aa aa1">
+                            <div class="hot-class-img">
+                                <a href="/c/26">
+                                    <img src="http://img2.zhiizhii.com/c2/1409905125400/55105b94-735c-472e-bcdb-2c61bc537222" width="232px" height="124px">
+                                </a>
+                            </div>
+                            <div class="hot-class-author">
+                                <span>
+                                    <img width="56px" class="img-circle" src="http://img1.zhiizhii.com/expert/1409905074894/21779dad-4f35-4608-a9c6-dedae794911f">
+                                </span>
+                                <span class="hot-class-author-name">
+                                    方雨
+                                </span>
+                                <span class="hot-class-author-title">
+                                    WeMedia联合创始人
+                                </span>
+                            </div>
+                            <div class="hot-class-box-title">
+                                <a href="/c/26">
+                            解决这几个关键问题，企业微信就能做好了
+                            </a>
+                            </div>
+                            <div class="hot-class-information">
+                                <div class="pull-left">
+                                    <a class="video-views"></a>
+                                    11
+                                </div>
+                                <span class="video-time"></span>0:56:40
+                                <div class="pull-right course-information-span">
+                                    <span>中级</span>
+                                </div>
+                            </div>
+                        </div>
+                        <!--课程 end-->
+                        <!--课程-->
+                        <div class="hot-class-box aa aa4">
+                            <div class="hot-class-img">
+                                <a href="/c/25">
+                                    <img src="http://img2.zhiizhii.com/c2/1409388250083/f53506ce-43c3-4843-ad54-5acb3181f4c4" width="232px" height="124px">
+                                </a>
+                            </div>
+                            <div class="hot-class-author">
+                                <span>
+                                    <img width="56px" class="img-circle" src="http://img1.zhiizhii.com/expert/1401795176990/2b628f4a-483a-477c-bfd3-930f8b459772">
+                                </span>
+                                <span class="hot-class-author-name">
+                                    袁俊
+                                </span>
+                                <span class="hot-class-author-title">
+                                    映盛中国市场副总裁
+                                </span>
+                            </div>
+                            <div class="hot-class-box-title">
+                                <a href="/c/25">
+                            微信产品升级带来哪些O2O营销机遇？
+                            </a>
+                            </div>
+                            <div class="hot-class-information">
+                                <div class="pull-left">
+                                    <a class="video-views"></a>
+                                    2
+                                </div>
+                                <span class="video-time"></span>0:52:25
+                                <div class="pull-right course-information-span">
+                                    <span>中级</span>
+                                </div>
+                            </div>
+                        </div>
+                        <!--课程 end-->
+                        <!--课程-->
+                        <div class="hot-class-box aa aa8">
+                            <div class="hot-class-img">
+                                <a href="/c/24">
+                                    <img src="http://img2.zhiizhii.com/c2/1408706044154/2babcb84-034c-4a18-ad46-8df3d805020d" width="232px" height="124px">
+                                </a>
+                            </div>
+                            <div class="hot-class-author">
+                                <span>
+                                    <img width="56px" class="img-circle" src="http://img1.zhiizhii.com/expert/1408706018691/479e0719-bdd0-4468-914e-2486a518f7f3">
+                                </span>
+                                <span class="hot-class-author-name">
+                                    梁海恩
+                                </span>
+                                <span class="hot-class-author-title">
+                                    企业高级咨询顾问
+                                </span>
+                            </div>
+                            <div class="hot-class-box-title">
+                                <a href="/c/24">
+                            如何做好区域市场管理工作？
+                            </a>
+                            </div>
+                            <div class="hot-class-information">
+                                <div class="pull-left">
+                                    <a class="video-views"></a>
+                                    1
+                                </div>
+                                <span class="video-time"></span>1:04:11
+                                <div class="pull-right course-information-span">
+                                    <span>中级</span>
+                                </div>
+                            </div>
+                        </div>
+                        <!--课程 end-->
+
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
         </div>
 
     </div>
     <script type="text/javascript">
-$(document).ready(function() {
-    $('#fullpage').fullpage({
-    	afterLoad:function(index){
-    		if(index=1){
-    			$('#section1 .box').show().addClass("animated fadeInUp");
-    		}
-    	}
+    $(document).ready(function() {
+        $('#fullpage').fullpage({
+            afterLoad: function(anchorLink, index) {
+                //using index
+                if (index == '2') {
+                    $('#section2 .aa').show().addClass('animated bounceInUp');
+                }
+            }
+
+        });
     });
-});
     </script>
 </body>
 
